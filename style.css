@@ -12682,10 +12682,10 @@ body .modal-backdrop {
   visibility: visible;
   bottom: 13px;
 }
-.rs-shop-part.part2 {
+/* .rs-shop-part.part2 { */
   /*Shop Single CSS*/
 
-}
+/* } */
 .rs-shop-part.part2 .img-part a {
   border: 1px solid #505050;
   font-size: 15px;
@@ -13203,7 +13203,7 @@ body .modal-backdrop {
   visibility: hidden;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
-  -webkit-transform-origin: 0 0 0;
+  /* -webkit-transform-origin: 0 0 0; */
 }
 .woocommerce-mini-cart2 .cart-bottom-part {
   padding: 25px 10px 0;
