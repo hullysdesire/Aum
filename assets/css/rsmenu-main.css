@@ -137,7 +137,7 @@ Version: 1.0.0
   color: #fff;
 }
 .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li a:hover {
-  color: #ffa000;
+  color: #E8ED3C;
 }
 .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li:last-child {
   margin-right: 0!important;
@@ -148,7 +148,7 @@ Version: 1.0.0
 .rs-header .menu-area .main-menu .rs-menu ul li a:hover,
 .rs-header .menu-area .main-menu .rs-menu ul li.active a,
 .rs-header .menu-area .main-menu .rs-menu ul li.current-menu-item > a {
-  color: #ffa000;
+  color: #E8ED3C;
 }
 
 
@@ -196,10 +196,10 @@ Version: 1.0.0
   font-weight: 400;
 }
 .rs-header .menu-area .main-menu .rs-menu ul.sub-menu li a:hover {
-  color: #ffa000 !important;
+  color: #E8ED3C !important;
 }
 .rs-header .menu-area .main-menu .rs-menu ul.sub-menu li.active a {
-  color: #ffa000 !important;
+  color: #E8ED3C !important;
 }
 
 
