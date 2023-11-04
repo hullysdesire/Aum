@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800');
 
 @import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900');
-@charset "utf-8";
+/* @charset "utf-8"; */
 /** 
 * 
 * -----------------------------------------------------------------------------
@@ -15075,7 +15075,7 @@ body .modal-backdrop {
   }
 }
 .rotated-style {
-  -webkit-animation: rotated-style 30s linear infinite;
+ -webkit-animation: rotated-style 30s linear infinite;
 }
 @keyframes rotated-style {
   0% {
@@ -15185,4 +15185,124 @@ body .modal-backdrop {
   100% {
     transform: scale(1.2);
   }
+}
+
+
+.table-container {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.responsive-table th,
+.responsive-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.responsive-table th {
+  background-color: #f2f2f2;
+}
+
+.responsive-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.responsive-table tr:hover {
+  background-color: #e6e6e6;
+}
+
+/* Styles pour les catégories d'admission et les animations */
+
+.admission-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.admission-category {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 45%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.admission-category h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.admission-category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.admission-category ul li {
+  margin-bottom: 8px;
+}
+
+/* Animation au survol */
+.admission-category:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+/* Styles pour le formulaire de préinscription et l'image de fond */
+
+.containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f0f0;
+  overflow: hidden;
+  position: relative;
+}
+
+.form-containers {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input,
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.background-images {
+  max-width: 50%;
+  height: auto;
+  object-fit: cover;
 }
