@@ -9701,6 +9701,11 @@ body .modal-backdrop {
   height: 100%;
   width: 100%;
 }
+
+.imagen img{
+  height: 20rem;
+}
+
 .rs-blog.style1 .blog-item .blog-content {
   padding: 37px 19px 30px;
 }
@@ -9848,6 +9853,8 @@ body .modal-backdrop {
   border: none;
   border-radius: 0;
 }
+
+
 .rs-blog.style1.modify1 .events-short .date-part {
   background: #f3f8f9;
 }
