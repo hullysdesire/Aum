@@ -15326,7 +15326,7 @@ button {
 
 @media (max-width: 750px) {
    #background-video { display: none; }
-  body {
+  .videoo {
     background: url("/assets/images/aum-image-header4.jpg") no-repeat;
     background-size: cover;
   } 
